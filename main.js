@@ -22,7 +22,7 @@ let borderRadius = `${radiusOne}% ${100 - radiusOne}% ${100 - radiusThree}% ${ra
                     
     document.getElementById("blob").style.cssText = `border-radius: ${borderRadius}; height: ${blobHeight}px; width: ${blobWidth}px`;
 
-    outputCode.value = `border-radius: ${borderRadius}; height: ${blobHeight}px; width: ${blobWidth}px`;
+    outputCode.value = `border-radius: ${borderRadius}; height: ${blobHeight}px; width: ${blobWidth}px;`;
 };
 
 document.getElementById("copy").addEventListener
